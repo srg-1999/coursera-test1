@@ -1,108 +1,152 @@
-
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-	
-	<title>Module 3 Solution</title>
+
+<title>Module 3</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 </head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+
+
 <body>
-    <header class="nav-header">
-    <nav id="header-nav" class="navbar navbar-default">
-      <div class="container">
-        <div class="navbar-header">
-          <div class="navbar-brand">
-            <p class="nav-brand">Food, LLC</p>
-          </div>
 
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="true">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-        
-        <div id="collapsable-nav" class="collapse navbar-collapse">
-           <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
-            <li class="text-center">
-              <a href="#hilsha-div"><p class="item">Hilsa/Ilish curry</p></a>
-              <hr class="visible-xs">
-            </li>            
-            <li class="text-center biryani-item">
-              <a href="#biryani-div"><p class="item">Biryani</p></a>
-              <hr class="visible-xs">
-            </li>
-            <li class="text-center chingri-item">
-              <a href="#chingri-div"><p class="item">Changri malai curry</p></a>
-            </li>
-          </ul> 
-        </div>
-      </div>
-    </nav>
-  	</header>
 
-	<h1 class="text-center">Our Menu</h1>
+<nav class="navbar" id="top">
+  <div class="container-fluid">
 
-	<div class="row container container-fluid">
-	<div class="col-md-12 col-sm-12 col-xs-12" id="hilsha-div">
-		<section>
-		<div id="hilsha">
-			Hilsa/Ilish curry
-		</div>
-		<p>
-			Hilsa (or ilish) curry is the national dish of Bangladesh, made from the Hilsa fish, and is one of the most popular traditional Bangladeshi dishes.
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Food, LLC</a>
+    </div>
 
-			The Hilsa fish is marinated in turmeric and chili paste, before slowly frying on a low heat and serving with a mustard gravy and rice. The result is a combination of sweet and sour flavours with an incredible spicy kick.
+    <div class="collapse" id="myNavbar">
+      <ul class="nav navbar-nav visible-xs">
+        <li><a class="menu-item" href="#chicken">Chicken</a></li>
+        <li><a class="menu-item" href="#beef">Beef</a></li>
+        <li><a class="menu-item" href="#sushi">Sushi</a></li>
+      </ul>
+    </div>
 
-			Aside from being cheap, Hilsa curry is filling, flavoursome, easy to make and widely available due to the amount of Hilsa fish in the region, especially during rainy season. The sheer abundance of the Hilsa fish is why Hilsa Curry is the national dish of Bangladesh.
+  </div>
+</nav>
 
-			In Bangladesh it is common to eat every part of the Hilsa fish including the head and the eggs, nothing is wasted and each part even has its own unique delicacies. You can find fish egg dishes or fish head curries that are widely revered throughout the region.
-		</p>
-		</section>
-	</div>
-	<div class="col-md-12 col-sm-12 col-xs-12" id="biryani-div">
-		<section>
-		<div id="biryani">
-			Biryani
-		</div>
-		<p>
-			Biryani, whilst not unique to Bangladesh, is a spicy rice dish made with meat or fish, rice, potatoes and spices.
+<h1 class="main-title">Our Menu</h1>
 
-			Hugely popular throughout the Indian subcontinent, Bangladeshi biryani is often considered the best in the world.
 
-			In the Bengali region, popular meats include mutton, goat, chicken and beef, but there is such a wide variety of biryani dishes available that you can try.
 
-			A true traditional biryani involves different types of cooking and preparation, as marinated meat is layered with rice, potatoes and spices, the dish is jam packed with flavour.
+<div class="row">
 
-			You will often find biryani served at special occasions or celebrations such as weddings, but it is also eaten as a regular meal throughout the weak, such is its popularity.
-		</p>
-		</section>
-	</div>
-	<div class="col-md-12 col-sm-12 col-xs-12" id="chingri-div">
-		<section>
-		<div id="chingri">
-			Changri malai curry
-		</div>
-		<p>
-			Changri malai curry is the most famous Bangladesh curry dish based on coconut milk, and is revered throughout the region, including India.
+  <div class="col-lg-4 col-md-6 col-sm-12">
+    <div id="chicken" class="content-box">
+      <p class="item-name">Chicken</p>
+      <p>
+        A chicken (Gallus gallus domesticus) is a kind of domesticated bird. It is raised in many places for its meat and eggs.
+                        They are usually kept by humans as livestock. Most breeds of chickens can fly for a short distance. Some sleep in trees if there are trees around.
+                        A male chicken is called a rooster or a cockerel. A female chicken is called a hen. A young chicken is called a chick. Like other female birds, hens lay eggs. The eggs hatch into chicks.
+                        When raising chickens, a farmer needs a chicken coop (like a little house) for the chickens to roost (sleep) in. They also need a run or yard where they can exercise, take dust baths, eat
+                         and drink. The chickens also need to be protected from predators such as foxes. Fences are often used for this. [2]
+                        Chickens can also be farmed intensively. This lets farms make a lot of chicken meat and eggs.
+                        Because of the low cost, chicken meat (also called "chicken") is one of the most used kinds of meat in the world. Americans eat 8 billion chickens every year.[4] Some popular dishes with chicken are: Buffalo wings, butter chicken, chicken rice, chicken balls, chicken pot pie, chicken soup, fried chicken (see picture), roasted chicken and tandoori chicken.[source?]
+                        A chicken (Gallus gallus domesticus) is a kind of domesticated bird. It is raised in many places for its meat and eggs.
+                        They are usually kept by humans as livestock. Most breeds of chickens can fly for a short distance. Some sleep in trees if there are trees around.
+                        A male chicken is called a rooster or a cockerel. A female chicken is called a hen. A young chicken is called a chick. Like other female birds, hens lay eggs. The eggs hatch into chicks.
+                        When raising chickens, a farmer needs a chicken coop (like a little house) for the chickens to roost (sleep) in. They also need a run or yard where they can exercise, take dust baths, eat and drink. The chickens also need to be protected from predators such as foxes. Fences are often used for this. [2]
+                        Chickens can also be farmed intensively. This lets farms make a lot of chicken meat and eggs.
+                        Because of the low cost, chicken meat (also called "chicken") is one of the most used kinds of meat in the world. Americans eat 8 billion chickens every year.[4] Some popular dishes with chicken are: Buffalo wings, butter chicken, chicken rice, chicken balls, chicken pot pie, chicken soup, fried chicken (see picture), roasted chicken and tandoori chicken.[source?]
+                        A chicken (Gallus gallus domesticus) is a kind of domesticated bird. It is raised in many places for its meat and eggs.
+                        They are usually kept by humans as livestock. Most breeds of chickens can fly for a short distance. Some sleep in trees if there are trees around.
+                        A male chicken is called a rooster or a cockerel. A female chicken is called a hen. A young chicken is called a chick. Like other female birds, hens lay eggs. The eggs hatch into chicks.
+                        When raising chickens, a farmer needs a chicken coop (like a little house) for the chickens to roost (sleep) in. They also need a run or yard where they can exercise, take dust baths, eat and drink. The chickens also need to be protected from predators such as foxes. Fences are often used for this. [2]
+                        Chickens can also be farmed intensively. This lets farms make a lot of chicken meat and eggs.
+                        Because of the low cost, chicken meat (also called "chicken") is one of the most used kinds of meat in the world. Americans eat 8 billion chickens every year.[4] Some popular dishes with chicken are: Buffalo wings, butter chicken, chicken rice, chicken balls, chicken pot pie, chicken soup, fried chicken (see picture), roasted chicken and tandoori chicken.[source?]
+                        A chicken (Gallus gallus domesticus) is a kind of domesticated bird. It is raised in many places for its meat and eggs.
+                        They are usually kept by humans as livestock. Most breeds of chickens can fly for a short distance. Some sleep in trees if there are trees around.
+                        A male chicken is called a rooster or a cockerel. A female chicken is called a hen. A young chicken is called a chick. Like other female birds, hens lay eggs. The eggs hatch into chicks.
+                        When raising chickens, a farmer needs a chicken coop (like a little house) for the chickens to roost (sleep) in. They also need a run or yard where they can exercise, take dust baths, eat and drink. The chickens also need to be protected from predators such as foxes. Fences are often used for this. [2]
+                        Chickens can also be farmed intensively. This lets farms make a lot of chicken meat and eggs.
+                        Because of the low cost, chicken meat (also called "chicken") is one of the most used kinds of meat in the world. Americans eat 8 billion chickens every year.[4] Some popular dishes with chicken are: Buffalo wings, butter chicken, chicken rice, chicken balls, chicken pot pie, chicken soup, fried chicken (see picture), roasted chicken and tandoori chicken.[source?]
+        .<a href="#top">(Back to Top)</a></p>
+    </div>
+  </div>
 
-			Chingri Malai (or Chingri Macher Malaikari as it is sometimes known), is a delicious creamy, satisfying seafood curry that is prepared by cooking prawns or shrimp in a coconut milk sauce with aromatic spices and served with basmati rice. Coconut milk is a very common ingredient in Bangladeshi cuisine, and this Changri Malai curry is a perfect example of that.
+  <div class="col-lg-4 col-md-6 col-sm-12">
+    <div id="beef" class="content-box">
+      <p class="item-name">Beef</p>
+      <p>
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+                         sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo
+                         duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+                         magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Duis autem vel eum iriure dolor in hendrerit
+                         in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+                         lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim
+                         qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum
+                         dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl
+                         ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis. At vero eos et accusam et justo duo dolores et ea rebum.
+                         Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
+                         diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, At accusam
+                         aliquyam diam diam dolore dolores duo eirmod eos erat, et nonumy sed tempor et et invidunt justo labore Stet clita ea et gubergren, kasd magna no rebum. sanctus sea sed takimata ut vero voluptua. est Lorem ipsum dolor sit amet.
+                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat. Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+                         magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
+                         elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+                         ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et
+                         ea rebum. Stet clita kasd gubergren, no sea takimata sanctus. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
+                         eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+                         ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+                         consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+                         sanctus est Lorem ipsum dolor sit amet. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui
+                         blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                         Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum
+                         dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue.<a href="#top">(Back to Top)</a></p>
+    </div>
+  </div>
 
-			The word Malai suggests the dish was actually brought to the region by Malaysian sailors docking at the Bay of Bengal many years ago, and the use of coconut in curries gives credence to this theory since it is popular in South-East Asian cuisine.
 
-			Bangladeshi cooking is famed for its use of seafood and fish in curries, so Chingri malai is definitely a dish to try if you’re ever in the region.
-		</p>
-		</section>
-	</div>
-	</div>
+  <div class="col-lg-4 col-md-12 col-sm-12">
+    <div id="sushi" class="content-box">
+      <p class="item-name">Sushi</p>
+      <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+                          sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo
+                          duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+                          magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Duis autem vel eum iriure dolor in hendrerit
+                          in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+                          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+                          lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim
+                          qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum
+                          dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl
+                          ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis. At vero eos et accusam et justo duo dolores et ea rebum.
+                          Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
+                          diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, At accusam
+                          aliquyam diam diam dolore dolores duo eirmod eos erat, et nonumy sed tempor et et invidunt justo labore Stet clita ea et gubergren, kasd magna no rebum. sanctus sea sed takimata ut vero voluptua. est Lorem ipsum dolor sit amet.
+                          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat. Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+                          magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
+                          elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+                          ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et
+                          ea rebum. Stet clita kasd gubergren, no sea takimata sanctus. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
+                          eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+                          ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+                          consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+                          sanctus est Lorem ipsum dolor sit amet. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui
+                          blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                          Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum
+                          dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue.<a href="#top">(Back to Top)</a></p>
+    </div>
+  </div>
 
-	<script src="js/jquery-2.1.4.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-  	<script src="js/script.js"></script>
+</div>
+
+
 </body>
 </html>
